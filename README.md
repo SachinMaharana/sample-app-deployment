@@ -15,3 +15,6 @@ To test the application run the command below and access http://localhost:8080/
 ```
 kubectl port-forward svc/sample-app 8080:80 -n sample-app
 ```
+
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJpbWFnZS11cGRhdGVyIiwiaWF0IjoxNjMzNTQzOTk5LCJpc3MiOiJhcmdvY2QiLCJuYmYiOjE2MzM1NDM5OTksInN1YiI6ImltYWdlLXVwZGF0ZXI6YXBpS2V5In0.brFhplFDLnX58_Se9Bxrmbd5o4n6CUhcMN5qXGVzqrM
