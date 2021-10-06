@@ -3,7 +3,8 @@ kind: Deployment
 metadata:
   name: sample-app
   annotations:
-    argocd-image-updater.argoproj.io/image-list: sachinnicky/sample-app:^0.1
+    argocd-image-updater.argoproj.io/image-list: hub.docker.com/repository/docker/sachinnicky/sample-app
+    argocd-image-updater.argoproj.io/write-back-method: git
 spec:
   replicas: 1
   revisionHistoryLimit: 3
